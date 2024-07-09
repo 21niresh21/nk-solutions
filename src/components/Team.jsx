@@ -1,12 +1,19 @@
 import { Box, Chip, Grid, Stack, Typography } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import CallIcon from "@mui/icons-material/Call";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
 
 function Team() {
   return (
-    <Box sx={{ top: "100px", position: "absolute", padding: '10px' }} id="team-section">
-      <Grid container sx={{gap: '15px'}} >
+    <Box
+      sx={{ top: "60px", position: "absolute", padding: "10px" }}
+      id="team-section"
+    >
+      <Typography variant="h4" sx={{ paddingBottom: "10px" }}>
+        The Team
+      </Typography>
+      <Grid container sx={{ gap: "15px" }}>
         <Grid
           sx={{
             flexGrow: 1,
@@ -15,14 +22,14 @@ function Team() {
             alignItems: "center",
             borderRadius: "5px",
             boxShadow: "0px 0px 3px 1px #000000aa",
-            padding: "10px",
+            paddingBottom: "10px",
           }}
         >
           <Box>
             <img
               src={`${process.env.PUBLIC_URL}/assets/nanda.jpeg`}
               alt="nanda"
-              width="350px"
+              width="410px"
             />
           </Box>
           <Box
@@ -40,7 +47,7 @@ function Team() {
             </Typography>
             <Typography sx={{ paddingBottom: "10px" }}>Co-Founder</Typography>
           </Box>
-          <Stack direction="row" spacing={2} sx={{ paddingBottom: "20px" }}>
+          <Stack direction="row" spacing={2} >
             <Grid container sx={{ gap: "10px", flexWrap: "nowrap" }}>
               <InstagramIcon />
               <Typography>Instagram</Typography>
@@ -49,6 +56,18 @@ function Team() {
             <Grid container sx={{ gap: "10px", flexWrap: "nowrap" }}>
               <LinkedInIcon />
               <Typography>LinkedIn</Typography>
+            </Grid>
+          </Stack>
+
+          <Stack direction="row" spacing={2} sx={{ paddingBottom: "20px" }}>
+            <Grid container sx={{ gap: "10px", flexWrap: "nowrap" , alignItems: 'center'}}>
+              <CallIcon fontSize="small" />
+              <Typography>9003777293</Typography>
+            </Grid>
+
+            <Grid container sx={{ gap: "10px", flexWrap: "nowrap", alignItems: 'center' }}>
+              <EmailIcon fontSize="small" />
+              <Typography>pgsbssnk@gmail.com</Typography>
             </Grid>
           </Stack>
         </Grid>
@@ -60,14 +79,14 @@ function Team() {
             alignItems: "center",
             borderRadius: "5px",
             boxShadow: "0px 0px 3px 1px #000000aa",
-            padding: "10px",
+            paddingBottom: "10px",
           }}
         >
           <Box>
             <img
               src={`${process.env.PUBLIC_URL}/assets/nanda.jpeg`}
               alt="nanda"
-              width="350px"
+              width="410px"
             />
           </Box>
           <Box
@@ -90,6 +109,18 @@ function Team() {
             <Grid container sx={{ gap: "10px", flexWrap: "nowrap" }}>
               <LinkedInIcon />
               <Typography>LinkedIn</Typography>
+            </Grid>
+          </Stack>
+
+          <Stack direction="row" spacing={2} sx={{ paddingBottom: "20px" }}>
+            <Grid container sx={{ gap: "10px", flexWrap: "nowrap" , alignItems: 'center'}}>
+              <CallIcon fontSize="small" />
+              <Typography>9003777293</Typography>
+            </Grid>
+
+            <Grid container sx={{ gap: "10px", flexWrap: "nowrap", alignItems: 'center' }}>
+              <EmailIcon fontSize="small" />
+              <Typography>pgsbssnk@gmail.com</Typography>
             </Grid>
           </Stack>
         </Grid>
