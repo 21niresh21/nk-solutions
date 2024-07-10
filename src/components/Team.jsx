@@ -105,7 +105,7 @@ function Team() {
         >
           <Box>
             <img
-              src={`${process.env.PUBLIC_URL}/assets/nanda.jpeg`}
+              src={`${process.env.PUBLIC_URL}/assets/WhatsApp Image 2024-07-10 at 10.36.22.jpeg`}
               alt="nanda"
               width="410px"
             />
