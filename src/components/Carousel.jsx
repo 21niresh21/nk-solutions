@@ -15,7 +15,7 @@ export const Carousel = ({ data }) => {
 
   return (
     <>
-        <h1 style={{marginTop: '70px', paddingLeft: '15px', textAlign: 'center'}} id="services-section">Our Services</h1>
+        <h1 style={{marginTop: '1300px', paddingLeft: '15px', textAlign: 'center'}} id="services-section">Our Services</h1>
       {data.map((item, idx) => (
         <div className={idx === slide ? "title" : "title title-hidden"} >
           <h2>{item.title}</h2>

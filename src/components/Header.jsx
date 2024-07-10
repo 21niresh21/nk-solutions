@@ -63,9 +63,9 @@ function Header() {
         <Toolbar>
           <Grid container alignItems="center" justifyContent="space-between">
             <Typography variant="h6">NK Solutions</Typography>
-            <IconButton onClick={() => toggleDrawer(!menuOpen)} edge="start">
+            {/* <IconButton onClick={() => toggleDrawer(!menuOpen)} edge="start">
               <MenuIcon />
-            </IconButton>
+            </IconButton> */}
             <Drawer
               anchor="right"
               open={menuOpen}

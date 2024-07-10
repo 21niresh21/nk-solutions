@@ -7,7 +7,7 @@ import EmailIcon from "@mui/icons-material/Email";
 function Team() {
   return (
     <Box
-      sx={{ top: "620px", position: "absolute", padding: "10px" }}
+      sx={{ top: "80px", position: "absolute", padding: "10px" }}
       id="team-section"
     >
       {/* <Typography variant="h4" sx={{ paddingBottom: "10px" }}>
