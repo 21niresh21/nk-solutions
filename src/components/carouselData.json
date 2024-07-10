@@ -1,16 +1,22 @@
 {
-    "slides" : [
+    "slides": [
         {
-            "src" : "nanda.jpeg",
+            "src": "dashboard.jpg",
             "alt": "",
-            "description": "hello",
-            "title": "cool"
+            "description": "Structured, Semi-structured, Unstructured. Give us the data in any form and we transform all your data to insightful visuals",
+            "title": "Interactive Dashboards"
         },
         {
-            "src" : "dashboard.jpg",
+            "src": "cloud.jpg",
             "alt": "",
-            "description": "bla bla",
-            "title": "colloe"
+            "description": "Drive innovation and growth with our comprehensive cloud solutions, providing reliable data management, advanced AI capabilities, and customizable applications tailored to your needs.",
+            "title": "Cloud Solutions"
+        },
+        {
+            "src": "ai.jpg",
+            "alt": "",
+            "description": "Drive innovation with our AI and machine learning offerings, delivering scalable solutions that analyze data, automate tasks, and optimize performance across diverse industries.",
+            "title": "AI/ML Solutions"
         }
     ]
 }
