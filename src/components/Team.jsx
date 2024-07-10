@@ -1,4 +1,4 @@
-import { Box, Chip, Grid, Stack, Typography } from "@mui/material";
+import { Box, Chip, Grid, IconButton, Stack, Typography } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import CallIcon from "@mui/icons-material/Call";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -7,12 +7,12 @@ import EmailIcon from "@mui/icons-material/Email";
 function Team() {
   return (
     <Box
-      sx={{ top: "60px", position: "absolute", padding: "10px" }}
+      sx={{ top: "80px", position: "absolute", padding: "10px" }}
       id="team-section"
     >
-      <Typography variant="h4" sx={{ paddingBottom: "10px" }}>
+      {/* <Typography variant="h4" sx={{ paddingBottom: "10px" }}>
         The Team
-      </Typography>
+      </Typography> */}
       <Grid container sx={{ gap: "15px" }}>
         <Grid
           sx={{
@@ -45,31 +45,52 @@ function Team() {
             >
               Nanda Kishore
             </Typography>
-            <Typography sx={{ paddingBottom: "10px" }}>Co-Founder</Typography>
+            <Typography sx={{ paddingBottom: "5px" }}>Co-Founder</Typography>
           </Box>
           <Stack direction="row" spacing={2} >
             <Grid container sx={{ gap: "10px", flexWrap: "nowrap" }}>
-              <InstagramIcon />
-              <Typography>Instagram</Typography>
+              <IconButton component="a" href="https://www.instagram.com/nanda_kishore_b7">
+                <InstagramIcon />
+              </IconButton>
+
+              {/* <Typography>Instagram</Typography> */}
             </Grid>
 
             <Grid container sx={{ gap: "10px", flexWrap: "nowrap" }}>
-              <LinkedInIcon />
-              <Typography>LinkedIn</Typography>
+            <IconButton component="a" href="https://www.linkedin.com/in/nanda-kishore-899848204">
+                <LinkedInIcon />
+              </IconButton>
+              {/* <Typography>LinkedIn</Typography> */}
             </Grid>
           </Stack>
 
-          <Stack direction="row" spacing={2} sx={{ paddingBottom: "20px" }}>
-            <Grid container sx={{ gap: "10px", flexWrap: "nowrap" , alignItems: 'center'}}>
-              <CallIcon fontSize="small" />
-              <Typography>9003777293</Typography>
-            </Grid>
+          {/* <Stack direction="row" spacing={2} sx={{ paddingBottom: "20px" }}> */}
+          <Grid
+            container
+            sx={{
+              gap: "10px",
+              flexWrap: "nowrap",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <CallIcon fontSize="small" />
+            <Typography>+91 9952402150</Typography>
+          </Grid>
 
-            <Grid container sx={{ gap: "10px", flexWrap: "nowrap", alignItems: 'center' }}>
-              <EmailIcon fontSize="small" />
-              <Typography>pgsbssnk@gmail.com</Typography>
-            </Grid>
-          </Stack>
+          <Grid
+            container
+            sx={{
+              gap: "10px",
+              flexWrap: "nowrap",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <EmailIcon fontSize="small" />
+            <Typography>pgsbssnk@gmail.com</Typography>
+          </Grid>
+          {/* </Stack> */}
         </Grid>
         <Grid
           sx={{
@@ -97,32 +118,52 @@ function Team() {
             }}
           >
             <Typography variant="h5">Niresh</Typography>
-            <Typography>Co-Founder</Typography>
+            <Typography sx={{ paddingBottom: "5px" }}>Co-Founder</Typography>
           </Box>
 
           <Stack direction="row" spacing={2}>
             <Grid container sx={{ gap: "10px", flexWrap: "nowrap" }}>
-              <InstagramIcon />
-              <Typography>Instagram</Typography>
+            <IconButton component="a" href="https://www.instagram.com/21st_century_niresh">
+                <InstagramIcon />
+              </IconButton>
+              {/* <Typography>Instagram</Typography> */}
             </Grid>
 
             <Grid container sx={{ gap: "10px", flexWrap: "nowrap" }}>
-              <LinkedInIcon />
-              <Typography>LinkedIn</Typography>
+            <IconButton component="a" href="https://www.linkedin.com/in/niresh-k-7b4071204">
+                <LinkedInIcon />
+              </IconButton>
+              {/* <Typography>LinkedIn</Typography> */}
             </Grid>
           </Stack>
 
-          <Stack direction="row" spacing={2} sx={{ paddingBottom: "20px" }}>
-            <Grid container sx={{ gap: "10px", flexWrap: "nowrap" , alignItems: 'center'}}>
-              <CallIcon fontSize="small" />
-              <Typography>9003777293</Typography>
-            </Grid>
+          {/* <Stack direction="row" spacing={2} sx={{ paddingBottom: "20px" }}> */}
+          <Grid
+            container
+            sx={{
+              gap: "10px",
+              flexWrap: "nowrap",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <CallIcon fontSize="small" />
+            <Typography>+91 9003777293</Typography>
+          </Grid>
 
-            <Grid container sx={{ gap: "10px", flexWrap: "nowrap", alignItems: 'center' }}>
-              <EmailIcon fontSize="small" />
-              <Typography>pgsbssnk@gmail.com</Typography>
-            </Grid>
-          </Stack>
+          <Grid
+            container
+            sx={{
+              gap: "10px",
+              flexWrap: "nowrap",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <EmailIcon fontSize="small" />
+            <Typography>nireshvardhan@gmail.com</Typography>
+          </Grid>
+          {/* </Stack> */}
         </Grid>
       </Grid>
     </Box>

@@ -1,0 +1,16 @@
+{
+    "slides" : [
+        {
+            "src" : "nanda.jpeg",
+            "alt": "",
+            "description": "hello",
+            "title": "cool"
+        },
+        {
+            "src" : "dashboard.jpg",
+            "alt": "",
+            "description": "bla bla",
+            "title": "colloe"
+        }
+    ]
+}
